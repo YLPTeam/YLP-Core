@@ -17,10 +17,10 @@ body {
     height: 60px;
     position: fixed;
     border-bottom: 5px #9900AA solid;
+    top: 0px;
 }
 
 #navigationTitle {
-    
     height: 60px;
     color: #9900AA;
     width: 270px;
@@ -58,12 +58,29 @@ body {
     text-align: center;
     margin-right: 4px;
     padding: 5px;
-    background-color: #1E1E1E;
+    background-color: #2F2F2F;
     color: FFFFFF;
     border-radius: 5px 5px 0px 0px;
-    
+    text-decoration: none;
 }
 
-.tabs:hover {
+.selected, .tabs:hover {
     background-color: #9900AA
+}
+
+.selected:hover {
+    background-color: #880099
+}
+
+#tab_content {
+    margin: 75px 10px 10px 10px
+}
+
+.tab_content {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    height: 200%;
+    box-shadow: 0px 0px 7px #444444;
 }
