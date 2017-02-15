@@ -2,6 +2,8 @@
     <head>
         <title>YLP Team Network</title>
         <link rel="stylesheet" href="1080.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js.js"></script>
     </head>
     <body>
         <div id="navigationBar">
@@ -10,10 +12,10 @@
                 <h1 id="navigationTitleText">YLP TEAM</h1>
             </div>
             <div id="tabs">
-                <a id="tab_home" class="tabs selected" href="#">HOME</a>
-                <a id="tab_downloads" class="tabs" href="#">DOWNLOADS</a>
-                <a id="tab_developers" class="tabs" href="#">DEVELOPERS</a>
-                <a id="tab_about" class="tabs" href="#">ABOUT</a>
+                <a id="tab_home" class="tabs selected" href="javascript:void(0)" data="tab_content_home">HOME</a>
+                <a id="tab_downloads" class="tabs" href="javascript:void(0)" data="">DOWNLOADS</a>
+                <a id="tab_developers" class="tabs" href="javascript:void(0)">DEVELOPERS</a>
+                <a id="tab_about" class="tabs" href="javascript:void(0)">ABOUT</a>
             </div>
         </div>
         
@@ -31,7 +33,5 @@
                 ABOUT
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js.js"></script>
     </body>
 </html>

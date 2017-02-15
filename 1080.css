@@ -18,6 +18,7 @@ body {
     position: fixed;
     border-bottom: 5px #9900AA solid;
     top: 0px;
+    box-shadow: 0px 1px 7px #444444;
 }
 
 #navigationTitle {
@@ -50,26 +51,31 @@ body {
     position: relative;
     height: 30px;
     top: -29px;
+    right: 50px;
     text-align: center;
 }
 
 .tabs {
     line-height: 30px;
     text-align: center;
-    margin-right: 4px;
+    margin-right: 10px;
     padding: 5px;
-    background-color: #2F2F2F;
+    background-color: #770088;
     color: FFFFFF;
     border-radius: 5px 5px 0px 0px;
     text-decoration: none;
+    border-top: 5px #770088 solid;
+    border-left: 5px #770088 solid;
+    border-right: 5px #770088 solid;
 }
 
 .selected, .tabs:hover {
-    background-color: #9900AA
+    background-color: #9900AA;
+    padding-top: 10px;
 }
 
 .selected:hover {
-    background-color: #880099
+    background-color: #880099;
 }
 
 #tab_content {
@@ -78,7 +84,7 @@ body {
 
 .tab_content {
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background: linear-gradient(180deg, white, #AAAAAA);
     padding: 10px;
     text-align: center;
     height: 200%;
