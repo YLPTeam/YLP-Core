@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('http://imgur.com/vEssgXL.png');
+  background-image: url('http://imgur.com/vEssgXL.png');
 }
 
 #navigationBar {
@@ -30,6 +30,12 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     border-bottom: 5px #9900AA solid;
+}
+
+#navigationTitle img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
 }
 
 #navigationTitle:hover {
@@ -54,7 +60,7 @@ body {
     float: right;
     position: relative;
     height: 30px;
-    top: -34px;
+    top: -39px;
     right: 100px;
     text-align: center;
 }
@@ -63,13 +69,11 @@ body {
     line-height: 30px;
     text-align: center;
     margin-right: 10px;
-    padding: 5px;
-    background-color: #BB00CC;
+    padding: 10px;
+    background-color: #770088;
     color: #222222;
     text-decoration: none;
-    border-top: 5px #9900AA solid;
-    border-left: 5px #9900AA solid;
-    border-right: 5px #9900AA solid;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .active, .tabs:hover {
@@ -77,7 +81,7 @@ body {
 }
 
 .active:hover {
-    background-color: #880099;
+    background-color: #AA00BB;
 }
 
 #tab_content {
