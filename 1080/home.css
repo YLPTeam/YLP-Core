@@ -1,0 +1,14 @@
+#welcome {
+    background: url('http://imgur.com/zAb15XX.png');//linear-gradient(135deg, #9900AA, #770088);
+    padding: 50px;
+    height: 300px;
+    color: #FFFFFF;
+    z-index: 1;
+    text-align: left;
+}
+
+#welcome img {
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}

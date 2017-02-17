@@ -1,0 +1,73 @@
+#stickyNavigationBar {
+    background-color: #9900AA;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    position: absolute;
+}
+
+#stickyNavigationLogo {
+    height: 100px;
+    color: #FFFFFF;
+    width: auto;
+    margin-left: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+#stickyNavigationLogo img {
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+}
+
+#stickyNavigationTitleText {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    float: right;
+}
+
+#sticky_nav_tabs {
+    position: relative;
+    right: 100px;
+    float: right;
+    margin-top: 26px;
+    height: 60px;
+}
+
+.sticky_nav_tabs {
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 60px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 0px;
+    -o-transition: 0s;
+    -ms-transition: 0s;
+    -moz-transition: 0s;
+    -webkit-transition: 0s;
+    transition: 0s;
+}
+
+.sticky_nav_tabs:hover {
+    font-weight: bolder;
+    -o-transition: 0s;
+    -ms-transition: 0s;
+    -moz-transition: 0s;
+    -webkit-transition: 0s;
+    transition: 0s;
+}
+
+.sticky_nav_tab .active:hover {
+    background-color: rgba(0, 0, 0, 0);
+    -o-transition: 0s;
+    -ms-transition: 0s;
+    -moz-transition: 0s;
+    -webkit-transition: 0s;
+    transition: 0s;
+}

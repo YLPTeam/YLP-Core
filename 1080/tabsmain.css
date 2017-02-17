@@ -1,0 +1,10 @@
+#tab_content {
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.tab_content {
+    text-align: center;
+    height: 200%;
+    background-color: #FFFFFF;
+}
