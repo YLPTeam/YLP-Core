@@ -1,29 +1,64 @@
 <html>
+    
+    
+    
     <head>
+        <!--Prevent phone zoom-->
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-        <title>YLP Team Network</title>
-        <link rel="stylesheet" href="1080.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js.js"></script>
+        <!--Page details: favicon, title-->
         <link rel="icon" type="image/png" href="http://imgur.com/v2rjsUz.png">
+        <title>YLP Team Network</title>
+        <!--All CSS files-->
+        <link rel="stylesheet" href="1080/main.css"/>
+        <link rel="stylesheet" href="1080/navBar.css"/>
+        <link rel="stylesheet" href="1080/home.css"/>
+        <link rel="stylesheet" href="1080/downloads.css"/>
+        <link rel="stylesheet" href="1080/news.css"/>
+        <link rel="stylesheet" href="1080/about.css"/>
+        <link rel="stylesheet" href="1080/tabsmain.css"/>
+        <link rel="stylesheet" href="1080/sticky_navBar.css"/>
+        <!--jQuery Import-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--Javascript Support-->
+        <script src="js.js"></script>
+        <!--Google Material Icons Web Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
+    
+    
+    
     <body>
+        <img src='http://imgur.com/vEssgXL.png' id="bgPic"/>
         <div id="navigationBar">
-            <div id="navigationTitle">
-                <img src="http://imgur.com/v2rjsUz.png" id="navigationTitleImg"/>
-                <h1 id="navigationTitleText">YLP TEAM</h1>
+            <a id="navigationLogo" href="tab_content_home">
+                <img src="http://imgur.com/v2rjsUz.png"/>
+                <h1 id="navigationTitleText"><b>YLP</b>TEAM</h1>
+            </a>
+            <div id="nav_tabs">
+                <a class="nav_tabs active tab_home tab_content_home" href="tab_content_home">HOME</a>
+                <a class="nav_tabs tab_downloads tab_content_downloads" href="tab_content_downloads">DOWNLOADS</a>
+                <a class="nav_tabs tab_about tab_content_about" href="tab_content_about">ABOUT</a>
+                <a class="nav_tabs tab_news tab_content_news" href="tab_content_news">NEWS</a>
             </div>
-            <div id="tabs">
-                <a id="tab_home" class="tabs active" href="#tab_content_home">HOME</a>
-                <a id="tab_downloads" class="tabs" href="#tab_content_downloads">DOWNLOADS</a>
-                <a id="tab_news" class="tabs" href="#tab_content_news">NEWS</a>
-                <a id="tab_about" class="tabs" href="#tab_content_about">ABOUT</a>
+        </div>
+        
+        <div id="stickyNavigationBar">
+            <a id="stickyNavigationLogo" href="">
+                <img src="http://imgur.com/ySkbqAr.png"/>
+                <h1 id="stickyNavigationTitleText"><b>YLP</b>TEAM</h1>
+            </a>
+            <div id="sticky_nav_tabs">
+                <a class="sticky_nav_tabs nav_tabs active tab_home tab_content_home" href="tab_content_home">HOME</a>
+                <a class="sticky_nav_tabs nav_tabs tab_downloads tab_content_downloads" href="tab_content_downloads">DOWNLOADS</a>
+                <a class="sticky_nav_tabs nav_tabs tab_about tab_content_about" href="tab_content_about">ABOUT</a>
+                <a class="sticky_nav_tabs nav_tabs tab_news tab_content_news" href="tab_content_news">NEWS</a>
             </div>
         </div>
         
         <div id="tab_content">
             <div id="tab_content_home" class="tab_content">
                 <div id="welcome">
+                    <img src="http://imgur.com/ySkbqAr.png"/>
                     <h1>WELCOME TO THE YLP WEBSITE<br/></h1>
                     <h3>LEARNING.   MAKING.   PUBLISHING.   PLAYING.</h3>
                 </div>
@@ -31,12 +66,17 @@
             <div id="tab_content_downloads" class="tab_content">
               
             </div>
+            <div id="tab_content_about" class="tab_content">
+            
+            </div>
             <div id="tab_content_news" class="tab_content">
               
             </div>
-            <div id="tab_content_about" class="tab_content">
-              
-            </div>
         </div>
+        <a class="material-icons" id="to_top" href="">arrow_upward</a>
+        
     </body>
+    
+    
+    
 </html>
